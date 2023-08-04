@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your BMI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="first-frame">
+                <h1 id="result" class="result"><i class="fa-solid fa-heart-pulse"></i>
+                    <i class="fa-solid fa-apple-whole"></i>
+                    <i class="fa-solid fa-bottle-water"></i>
+                    <i class="fa-solid fa-stethoscope"></i></h1>
+                <h2>Calculate your BMI and know about your body</h2>
+                <h3>** This is just a simple BMI calculator for any medication contact your doctor**</h3>
+                <div class="user-input">
+                    <input class="input" type="text" placeholder="Enter your weight in kg here " id="weight">
+                    <input class="input" type="text" placeholder="Enter your height in m here" id="height">
+                </div>
+                <button onclick="calc()" id="btn" class="btn">Calculate</button>
+            </div>
+            
+        </div>
+        <div class="second-frame">
+            <h1>**NOTE**</h1>
+            <ul>
+                <li>Underweight = less than 18.5;</li>
+                <li>Normal weight = 18.5-24.9;</li>
+                <li>Overweight = 25-29.9;</li>
+                <li>Obesity = 30-35;</li>
+                <li>Severe obesity = 35 and over.</li>
+            </ul>
+        </div>
+    </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>

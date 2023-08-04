@@ -1,0 +1,92 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+.main-container{
+    background-color: #7EB9E2;
+}
+.container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: #333; */
+    width: 100vw;
+    height: 90vh;
+    margin: 0;
+}
+
+.first-frame {
+    width: 50vw;
+    margin-top: 5rem;
+    /* background-color: blueviolet; */
+    text-align: center;
+    padding: 5rem;
+    border-radius: 3rem;
+    box-shadow: 1.5rem 1.5rem 1.5rem 1.5rem #B2E6C2;
+}
+
+h1.result {
+    font-size: 3rem;
+    color: black;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: black;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.user-input {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.input {
+    width: 45%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.input:focus{
+    outline: none;
+}
+.input::placeholder{
+    color: white;
+}
+.btn{
+    margin-top: 1.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+.btn:hover{
+    /* background-color: #333; */
+    cursor: pointer;
+}
+.second-frame{
+    transform: translate(150% , -130%);
+    color: white;
+    background-color: #1E2A78;
+    border: 1px solid blueviolet;
+    width: 20rem;
+    box-shadow: 1rem 1rem 1rem 1rem #A2C5AC;
+    border-radius: 2rem;
+}
+.second-frame h1{
+    text-align: center;
+}
